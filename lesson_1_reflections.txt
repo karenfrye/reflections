@@ -1,0 +1,30 @@
+Reflect: Using diff to Find Bugs
+
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced? 
+
+By having the original like directly above the changed line, and only the lines that were different, allowed me to quickly scan the changes for the typo rather than spend a mass amount of time going over the entire document. It saved both time and frustration. 
+
+2. How could having easy access to the entire history of a file make you a more efficiant programmer in the long term? 
+
+It would not only allow me to review not only the last set of changes made, but all of them. Therefore, if after several changes and revisions I decided that I like the font of the original or three versions back better than the current version, I would be able to go back to that version rather than only have the previous bit. It also is better for time since older files are not fresh in the mind and a change from a long bit ago may impact my current version much more than the last set. 
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: Being able to save at logical intervales and at the end of the thought; save when a task is complete;
+Con: Risk of losing changes if waited too long to save; risk of losing data if computer blips
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+
+Git assumes that all the files interact and are not 100% standalone. Therefore it reduces the risk that the user will save one file such as index.html without saving the corresponding .css file even when changes were made to both. Google Docs assumes that each file is independt and do not relate. 
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+The command git log gives a complete list of every change or commit of the file. My copying two different SHAs and using git diff the differences between the two commits are easily found. The tow commands together can give a complete view of the history of the files with all the changes and when and how many were done. 
+
+6. How might using version control make you more confident to make changes that could break something? 
+
+It would make me more confident because I would know that the change is not permanent. I would be able to go back to the previous version prior to the break and reset the code. Or if only one facet changes, be able to track down that one change that may have caused it without having to start from scratch. 
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git for building my own Portfolio website. 
