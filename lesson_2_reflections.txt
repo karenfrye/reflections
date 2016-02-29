@@ -2,3 +2,8 @@
 
 It creates a .git within the file folder I am working. It will allow me to track any files within that folder. I need it so that I am able to push, pull and make commits allowing me to use version control on my set of files. 
 
+2. How is the staging area different from the working directory and the repository? What value do you think it offers? 
+
+The staging area allows for files to be added and removed without leaving a permanent mark on the repository. This is important because it keeps the repository clean and only reflects the changes you want to remember. 
+
+3. 
