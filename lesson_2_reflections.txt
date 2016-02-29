@@ -1,0 +1,4 @@
+1. What happens when you initialize a repository? Why do you need to do it? 
+
+It creates a .git within the file folder I am working. It will allow me to track any files within that folder. I need it so that I am able to push, pull and make commits allowing me to use version control on my set of files. 
+
