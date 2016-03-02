@@ -6,4 +6,21 @@ It creates a .git within the file folder I am working. It will allow me to track
 
 The staging area allows for files to be added and removed without leaving a permanent mark on the repository. This is important because it keeps the repository clean and only reflects the changes you want to remember. 
 
-3. 
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the command git diff --staged and compare the files you have in the staging area to that in the repository. If there are more than one files, then the results will show the different files. 
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help? 
+
+Branches would be helpful by keepings your master history seperate from your experimental or test phases. This helps by keeping the thought process logical and not bouncing around between the master commit then the experimental commit then the master again. 
+
+5. How do the diagrams help you visualize the branch structure?
+The branch structure allows me to trace the commits and keep them seperate. It allows me to understand why some commits are no reachable by another branch. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is combining both sets of commits and making a new master branch. It it represented as such to show that you are not losing information from either branch.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually? 
+
+Pros are that it can take a large amount of commits and smush them together without direct oversight. Cons is that conflicts require time and attention to determine which commit is the correct one then altering the code.  
