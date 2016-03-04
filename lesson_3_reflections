@@ -14,3 +14,6 @@ Fork is specifically within GitHub and allows you to clone another users reposit
 4. What is the benefit of having a copy of the last known state of the remote stored locally? 
 Allows a user to be able to work on a copy offline while other team members work on the remote copy. It also doesn't affect version-control since you are able to merge the two copies without difficulty. 
 
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+If I were collarborating I would need to save the file after each session and send it to the people I would be working on. Then, depending on the software, I would have to make sure to have track changes on otherwise I would have to rely on the other collaborators to tell me what they changed. It has slightly less steps to save and send than Git or GitHub, so that would be a bit easier. However, tracking changes, approving or merging changes from other would be difficult. 
+
