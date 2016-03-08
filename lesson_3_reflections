@@ -17,3 +17,6 @@ Allows a user to be able to work on a copy offline while other team members work
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 If I were collarborating I would need to save the file after each session and send it to the people I would be working on. Then, depending on the software, I would have to make sure to have track changes on otherwise I would have to rely on the other collaborators to tell me what they changed. It has slightly less steps to save and send than Git or GitHub, so that would be a bit easier. However, tracking changes, approving or merging changes from other would be difficult. 
 
+6. When would you want to make changes in a seperate branch rather than directly in master? What benefits does each approach have? 
+
+You would want to make changes in a seperate branch that are either experimental or require testing since the master branch is part of the final or working line. The benefit is that people can make multiple changes to a branch or work several different lines of thoughts without affecting the main line. 
